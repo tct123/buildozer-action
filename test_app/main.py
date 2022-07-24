@@ -10,7 +10,7 @@ from kivy.lang import Builder
 
 class MainApp(App):
     def build(self):
-        return Builder.load_file("main.k")
+        return Builder.load_file("main.kv")
 
 
 if __name__ == "__main__":
